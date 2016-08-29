@@ -1,0 +1,3 @@
+#MyDemoObjc
+
+	-test project
