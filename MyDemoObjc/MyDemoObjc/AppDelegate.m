@@ -29,7 +29,7 @@
     //开启DDLog 颜色
     [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
     [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor blueColor] backgroundColor:nil forFlag:DDLogFlagVerbose];
-    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor blueColor] backgroundColor:[UIColor greenColor] forFlag:DDLogFlagInfo];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor blackColor] backgroundColor:[UIColor whiteColor] forFlag:DDLogFlagInfo];
     
     //配置DDLog
     [DDLog addLogger:[DDTTYLogger sharedInstance]]; // TTY = Xcode console
