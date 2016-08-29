@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CocoaLumberjack.h"
 @interface AppDelegate ()
 
 @end
@@ -15,8 +15,38 @@
 @implementation AppDelegate
 
 
+-(void)ddlogSetting
+{
+    //开启使用 XcodeColors
+    setenv("XcodeColors", "YES", 0);
+    //检测
+    char *xcode_colors = getenv("XcodeColors");
+    if (xcode_colors && (strcmp(xcode_colors, "YES") == 0))
+    {
+        // XcodeColors is installed and enabled!
+        NSLog(@"XcodeColors is installed and enabled");
+    }
+    //开启DDLog 颜色
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor blueColor] backgroundColor:nil forFlag:DDLogFlagVerbose];
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor blueColor] backgroundColor:[UIColor greenColor] forFlag:DDLogFlagInfo];
+    
+    //配置DDLog
+    [DDLog addLogger:[DDTTYLogger sharedInstance]]; // TTY = Xcode console
+    [DDLog addLogger:[DDASLLogger sharedInstance]]; // ASL = Apple System Logs
+    
+    DDFileLogger *fileLogger = [[DDFileLogger alloc] init]; // File Logger
+    fileLogger.rollingFrequency = 60 * 60 * 24; // 24 hour rolling
+    fileLogger.logFileManager.maximumNumberOfLogFiles = 7;
+    [DDLog addLogger:fileLogger];
+
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self ddlogSetting];
     return YES;
 }
 

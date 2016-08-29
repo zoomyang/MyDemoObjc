@@ -8,6 +8,15 @@
 
 #import "ViewController.h"
 
+#import "DHManager.h"
+
+#import "CocoaLumberjack.h"
+#ifdef DEBUG
+static DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+static DDLogLevel ddLogLevel = DDLogLevelInfo;
+#endif
+
 @interface ViewController ()
 
 @end
@@ -18,7 +27,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    NSDictionary *dic = [[DHManager shareDHManager] DH];
     
+    DDLogInfo(@"%@",dic);
 }
 
 - (void)didReceiveMemoryWarning {
