@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D4B247AA4D69B1528F284AB6DBE8329C'
+               BlueprintIdentifier = '42DEEBD3AE618E7D7393BE2D414E514A'
                BlueprintName = 'XMLReader'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libXMLReader.a'>

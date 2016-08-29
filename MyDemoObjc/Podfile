@@ -28,4 +28,7 @@ pod 'XMLWriter'
 pod 'XMLReader'
 pod 'PodTestLibrary'
 pod 'OpenSSL'
+pod 'CocoaAsyncSocket'
+pod 'AsyncNetwork', '~> 1.1.1'
+pod 'AsyncSocket'
 end

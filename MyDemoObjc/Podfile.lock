@@ -20,6 +20,12 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - AsyncNetwork (1.1.1):
+    - CocoaAsyncSocket
+  - AsyncSocket (0.1.0)
+  - CocoaAsyncSocket (7.5.0):
+    - CocoaAsyncSocket/GCD (= 7.5.0)
+  - CocoaAsyncSocket/GCD (7.5.0)
   - CocoaLumberjack (2.0.3):
     - CocoaLumberjack/Default (= 2.0.3)
     - CocoaLumberjack/Extensions (= 2.0.3)
@@ -65,6 +71,9 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
+  - AsyncNetwork (~> 1.1.1)
+  - AsyncSocket
+  - CocoaAsyncSocket
   - CocoaLumberjack (~> 2.0.0-rc2)
   - FMDB (~> 2.5)
   - GTMBase64
@@ -93,6 +102,9 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AsyncNetwork: 277af45668cc5e41ecaf8dbd0c953ffad3375982
+  AsyncSocket: e5929b9938d5d47cd662278904ff4b0e641b373d
+  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
   CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
@@ -108,7 +120,7 @@ SPEC CHECKSUMS:
   OpenSSL: b187269d386b07452f56af273764ea0636dd5da8
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
   PinYin4Objc: 3fa9673610368330e2dfb688b1d19a35c3930a78
-  PodTestLibrary: b96347e1614f342de404c33c1dc3c1cf6b12151a
+  PodTestLibrary: b2e0b0fe89d369652b887833e5e4412200de1a97
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   QRCodeReaderViewController: bbe09ba1805a74e4da29863a5220a7ad0411f5bc
   Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
@@ -120,6 +132,6 @@ SPEC CHECKSUMS:
   XMLReader: c7e54b707c368e2fa545d8313276b4de13a36ff5
   XMLWriter: ebd4fc5372ec9e2d2e36dfa7489a6162b540f599
 
-PODFILE CHECKSUM: 0b9ee0bcd719c38e8f761a6196743e4192e57b72
+PODFILE CHECKSUM: a845bdca5c471f97d307c4b2154969ec6a6b9128
 
 COCOAPODS: 1.0.1

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		412E2AC861CE5FB7F150CE96 /* libPods-MyDemoObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C054230C3640CA1CCDA1CED /* libPods-MyDemoObjc.a */; };
+		C7104A551D74656E00B80BF6 /* IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = C7104A541D74656E00B80BF6 /* IPAddress.m */; };
 		C72B0B8E1D73B2690065A9A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C72B0B8D1D73B2690065A9A0 /* main.m */; };
 		C72B0B911D73B2690065A9A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C72B0B901D73B2690065A9A0 /* AppDelegate.m */; };
 		C72B0B941D73B2690065A9A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72B0B931D73B2690065A9A0 /* ViewController.m */; };
@@ -23,6 +24,8 @@
 		1773D9B8C87424EDB38AA8BF /* Pods-MyDemoObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemoObjc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemoObjc/Pods-MyDemoObjc.debug.xcconfig"; sourceTree = "<group>"; };
 		5C054230C3640CA1CCDA1CED /* libPods-MyDemoObjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyDemoObjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E138380111615D2E362036F /* Pods-MyDemoObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemoObjc.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemoObjc/Pods-MyDemoObjc.release.xcconfig"; sourceTree = "<group>"; };
+		C7104A531D74656E00B80BF6 /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		C7104A541D74656E00B80BF6 /* IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAddress.m; sourceTree = "<group>"; };
 		C72B0B891D73B2690065A9A0 /* MyDemoObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemoObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72B0B8D1D73B2690065A9A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C72B0B8F1D73B2690065A9A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,15 @@
 				5C054230C3640CA1CCDA1CED /* libPods-MyDemoObjc.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7104A521D74656E00B80BF6 /* IPAddress */ = {
+			isa = PBXGroup;
+			children = (
+				C7104A531D74656E00B80BF6 /* IPAddress.h */,
+				C7104A541D74656E00B80BF6 /* IPAddress.m */,
+			);
+			path = IPAddress;
 			sourceTree = "<group>";
 		};
 		C72B0B801D73B2690065A9A0 = {
@@ -116,6 +128,7 @@
 		C72B0BA61D73BF730065A9A0 /* utility */ = {
 			isa = PBXGroup;
 			children = (
+				C7104A521D74656E00B80BF6 /* IPAddress */,
 				C72B0BA71D73BF820065A9A0 /* DH */,
 			);
 			path = utility;
@@ -256,6 +269,7 @@
 				C72B0B9A1D73B2690065A9A0 /* MyDemoObjc.xcdatamodeld in Sources */,
 				C72B0BAC1D73BF820065A9A0 /* DHManager.mm in Sources */,
 				C72B0B941D73B2690065A9A0 /* ViewController.m in Sources */,
+				C7104A551D74656E00B80BF6 /* IPAddress.m in Sources */,
 				C72B0B911D73B2690065A9A0 /* AppDelegate.m in Sources */,
 				C72B0B8E1D73B2690065A9A0 /* main.m in Sources */,
 				C72B0BAD1D73BF820065A9A0 /* dllmain.cpp in Sources */,
