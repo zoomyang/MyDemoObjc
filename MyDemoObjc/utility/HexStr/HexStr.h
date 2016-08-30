@@ -18,6 +18,7 @@
  */
 -(NSData*)StrHexToByte:(NSString*)strHex;
 
+
 /**
  *  将NSData转换成十六进制的字符串
  *
