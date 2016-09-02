@@ -179,7 +179,6 @@ static  CoreDataDBHelper* _sharedInstance = nil;
  */
 -(NSFetchedResultsController *)fetchedResultsController:(NSString *)emptyName sectionNameKey:(NSString*)sectionNameKey predicateArr:(NSArray *(^)())predicate sortDescriptor:(NSArray *(^)())sortDescriptor
 {
-    
     AppDelegate* appDelegate = [self getApplegate];
     NSManagedObjectContext* context = [appDelegate managedObjectContext];
     
