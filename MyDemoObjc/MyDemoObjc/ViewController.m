@@ -49,6 +49,14 @@ static DDLogLevel ddLogLevel = DDLogLevelInfo;
     for (Dept *dept in muDepts) {
         NSLog(@"id:%@ name:%@",dept.deptId,dept.deptName);
     }
+    
+    
+    
+//    NSMutableArray *mu1=[[NSMutableArray alloc] init];
+//    NSMutableArray *mu2=[[NSMutableArray alloc] init];
+//    
+//    [mu1 addObject:mu2];
+//    [mu2 addObject:mu1];
 }
 
 - (void)didReceiveMemoryWarning {
