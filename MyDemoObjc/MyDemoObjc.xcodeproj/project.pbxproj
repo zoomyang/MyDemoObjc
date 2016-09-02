@@ -18,6 +18,11 @@
 		C72B0B9F1D73B2690065A9A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72B0B9D1D73B2690065A9A0 /* LaunchScreen.storyboard */; };
 		C72B0BAC1D73BF820065A9A0 /* DHManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C72B0BAA1D73BF820065A9A0 /* DHManager.mm */; };
 		C72B0BAD1D73BF820065A9A0 /* dllmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72B0BAB1D73BF820065A9A0 /* dllmain.cpp */; };
+		C7745EF81D79018E00ED861B /* Dept+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C7745EF11D79018E00ED861B /* Dept+CoreDataProperties.m */; };
+		C7745EF91D79018E00ED861B /* Dept.m in Sources */ = {isa = PBXBuildFile; fileRef = C7745EF31D79018E00ED861B /* Dept.m */; };
+		C7745EFA1D79018E00ED861B /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C7745EF51D79018E00ED861B /* Person+CoreDataProperties.m */; };
+		C7745EFB1D79018E00ED861B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C7745EF71D79018E00ED861B /* Person.m */; };
+		C7745EFF1D7901EA00ED861B /* CoreDataDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C7745EFE1D7901EA00ED861B /* CoreDataDBHelper.m */; };
 		C7F8DA361D75B30D0051ECF3 /* HexStr.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F8DA351D75B30D0051ECF3 /* HexStr.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +47,16 @@
 		C72B0BA91D73BF820065A9A0 /* DHManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHManager.h; sourceTree = "<group>"; };
 		C72B0BAA1D73BF820065A9A0 /* DHManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DHManager.mm; sourceTree = "<group>"; };
 		C72B0BAB1D73BF820065A9A0 /* dllmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dllmain.cpp; sourceTree = "<group>"; };
+		C7745EF01D79018E00ED861B /* Dept+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dept+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C7745EF11D79018E00ED861B /* Dept+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Dept+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C7745EF21D79018E00ED861B /* Dept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dept.h; sourceTree = "<group>"; };
+		C7745EF31D79018E00ED861B /* Dept.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dept.m; sourceTree = "<group>"; };
+		C7745EF41D79018E00ED861B /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C7745EF51D79018E00ED861B /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C7745EF61D79018E00ED861B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C7745EF71D79018E00ED861B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C7745EFD1D7901EA00ED861B /* CoreDataDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDBHelper.h; sourceTree = "<group>"; };
+		C7745EFE1D7901EA00ED861B /* CoreDataDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataDBHelper.m; sourceTree = "<group>"; };
 		C7F8DA341D75B30D0051ECF3 /* HexStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexStr.h; sourceTree = "<group>"; };
 		C7F8DA351D75B30D0051ECF3 /* HexStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexStr.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +130,7 @@
 				C72B0B9D1D73B2690065A9A0 /* LaunchScreen.storyboard */,
 				C72B0BA01D73B2690065A9A0 /* Info.plist */,
 				C72B0B981D73B2690065A9A0 /* MyDemoObjc.xcdatamodeld */,
+				C7745EEF1D79017D00ED861B /* CoreDataModal */,
 				C72B0B8C1D73B2690065A9A0 /* Supporting Files */,
 			);
 			path = MyDemoObjc;
@@ -131,6 +147,7 @@
 		C72B0BA61D73BF730065A9A0 /* utility */ = {
 			isa = PBXGroup;
 			children = (
+				C7745EFC1D7901D600ED861B /* CoreDataDBHelper */,
 				C7F8DA331D75B2FB0051ECF3 /* HexStr */,
 				C7104A521D74656E00B80BF6 /* IPAddress */,
 				C72B0BA71D73BF820065A9A0 /* DH */,
@@ -147,6 +164,30 @@
 				C72B0BAB1D73BF820065A9A0 /* dllmain.cpp */,
 			);
 			path = DH;
+			sourceTree = "<group>";
+		};
+		C7745EEF1D79017D00ED861B /* CoreDataModal */ = {
+			isa = PBXGroup;
+			children = (
+				C7745EF01D79018E00ED861B /* Dept+CoreDataProperties.h */,
+				C7745EF11D79018E00ED861B /* Dept+CoreDataProperties.m */,
+				C7745EF21D79018E00ED861B /* Dept.h */,
+				C7745EF31D79018E00ED861B /* Dept.m */,
+				C7745EF41D79018E00ED861B /* Person+CoreDataProperties.h */,
+				C7745EF51D79018E00ED861B /* Person+CoreDataProperties.m */,
+				C7745EF61D79018E00ED861B /* Person.h */,
+				C7745EF71D79018E00ED861B /* Person.m */,
+			);
+			path = CoreDataModal;
+			sourceTree = "<group>";
+		};
+		C7745EFC1D7901D600ED861B /* CoreDataDBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C7745EFD1D7901EA00ED861B /* CoreDataDBHelper.h */,
+				C7745EFE1D7901EA00ED861B /* CoreDataDBHelper.m */,
+			);
+			path = CoreDataDBHelper;
 			sourceTree = "<group>";
 		};
 		C7F8DA331D75B2FB0051ECF3 /* HexStr */ = {
@@ -279,11 +320,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7745EF91D79018E00ED861B /* Dept.m in Sources */,
 				C72B0B9A1D73B2690065A9A0 /* MyDemoObjc.xcdatamodeld in Sources */,
 				C7F8DA361D75B30D0051ECF3 /* HexStr.m in Sources */,
+				C7745EF81D79018E00ED861B /* Dept+CoreDataProperties.m in Sources */,
 				C72B0BAC1D73BF820065A9A0 /* DHManager.mm in Sources */,
+				C7745EFA1D79018E00ED861B /* Person+CoreDataProperties.m in Sources */,
+				C7745EFB1D79018E00ED861B /* Person.m in Sources */,
 				C72B0B941D73B2690065A9A0 /* ViewController.m in Sources */,
 				C7104A551D74656E00B80BF6 /* IPAddress.m in Sources */,
+				C7745EFF1D7901EA00ED861B /* CoreDataDBHelper.m in Sources */,
 				C72B0B911D73B2690065A9A0 /* AppDelegate.m in Sources */,
 				C72B0B8E1D73B2690065A9A0 /* main.m in Sources */,
 				C72B0BAD1D73BF820065A9A0 /* dllmain.cpp in Sources */,

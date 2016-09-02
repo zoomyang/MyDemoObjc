@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="Dept" representedClassName="Dept" syncable="YES">
+        <attribute name="deptId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deptName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="personsRef" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="deptRef" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES">
+        <attribute name="personId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="personName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="deptRef" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dept" inverseName="personsRef" inverseEntity="Dept" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Dept" positionX="-90" positionY="-45" width="128" height="88"/>
+        <element name="Person" positionX="126" positionY="-18" width="128" height="88"/>
+    </elements>
 </model>
