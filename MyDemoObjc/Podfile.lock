@@ -35,6 +35,9 @@ PODS:
   - CocoaLumberjack/Extensions (2.0.3):
     - CocoaLumberjack/Default
   - DACircularProgress (2.3.1)
+  - FFmpeg (2.2):
+    - FFmpeg/precompiled (= 2.2)
+  - FFmpeg/precompiled (2.2)
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
@@ -75,6 +78,7 @@ DEPENDENCIES:
   - AsyncSocket
   - CocoaAsyncSocket
   - CocoaLumberjack (~> 2.0.0-rc2)
+  - FFmpeg (= 2.2)
   - FMDB (~> 2.5)
   - GTMBase64
   - JSONModel
@@ -107,6 +111,7 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
   CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FFmpeg: 9eceaf0ea988434e1aeb31e3ee82d066d79bcdf4
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   GTMBase64: 0da7372e95f5171f3f652db38cde6716f8eb5e24
   JSONModel: 58fe3f8c29ff95ed94e7ee7dde87e807f5da5371
@@ -132,6 +137,6 @@ SPEC CHECKSUMS:
   XMLReader: c7e54b707c368e2fa545d8313276b4de13a36ff5
   XMLWriter: ebd4fc5372ec9e2d2e36dfa7489a6162b540f599
 
-PODFILE CHECKSUM: a845bdca5c471f97d307c4b2154969ec6a6b9128
+PODFILE CHECKSUM: 1b71b2c3c38da1d167160ec7689974fb02176783
 
 COCOAPODS: 1.0.1
