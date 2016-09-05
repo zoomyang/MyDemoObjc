@@ -41,7 +41,10 @@ PODS:
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
+  - GRMustache (7.3.2):
+    - JRSwizzle (~> 1.0)
   - GTMBase64 (1.0.0)
+  - JRSwizzle (1.0)
   - JSONModel (1.4.0)
   - M80AttributedLabel (1.3.3)
   - Masonry (1.0.1)
@@ -80,6 +83,7 @@ DEPENDENCIES:
   - CocoaLumberjack (~> 2.0.0-rc2)
   - FFmpeg (= 2.2)
   - FMDB (~> 2.5)
+  - GRMustache
   - GTMBase64
   - JSONModel
   - M80AttributedLabel (~> 1.3.1)
@@ -113,7 +117,9 @@ SPEC CHECKSUMS:
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   FFmpeg: 9eceaf0ea988434e1aeb31e3ee82d066d79bcdf4
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GRMustache: ebe6104fd30a6d22c1f36af131e19e2dbf7cd292
   GTMBase64: 0da7372e95f5171f3f652db38cde6716f8eb5e24
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
   JSONModel: 58fe3f8c29ff95ed94e7ee7dde87e807f5da5371
   M80AttributedLabel: 3bcacb2d85e6c66e32fb930aac2f04eca3974106
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
@@ -137,6 +143,6 @@ SPEC CHECKSUMS:
   XMLReader: c7e54b707c368e2fa545d8313276b4de13a36ff5
   XMLWriter: ebd4fc5372ec9e2d2e36dfa7489a6162b540f599
 
-PODFILE CHECKSUM: 1b71b2c3c38da1d167160ec7689974fb02176783
+PODFILE CHECKSUM: 88acee6b5bf20c42b935261c00060efe6bf279dd
 
 COCOAPODS: 1.0.1
