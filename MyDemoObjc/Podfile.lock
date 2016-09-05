@@ -72,6 +72,7 @@ PODS:
   - SSZipArchive (1.5)
   - SVProgressHUD (1.1.3)
   - Toast (2.4)
+  - WebViewJavascriptBridge (5.0.5)
   - XMLReader (0.0.2)
   - XMLWriter (0.1.0)
 
@@ -83,7 +84,7 @@ DEPENDENCIES:
   - CocoaLumberjack (~> 2.0.0-rc2)
   - FFmpeg (= 2.2)
   - FMDB (~> 2.5)
-  - GRMustache
+  - GRMustache (= 7.3.2)
   - GTMBase64
   - JSONModel
   - M80AttributedLabel (~> 1.3.1)
@@ -105,6 +106,7 @@ DEPENDENCIES:
   - SSZipArchive (~> 1.2)
   - SVProgressHUD (~> 1.1.2)
   - Toast (~> 2.4)
+  - WebViewJavascriptBridge
   - XMLReader
   - XMLWriter
 
@@ -140,9 +142,10 @@ SPEC CHECKSUMS:
   SSZipArchive: 29daace2bccb90a47de2837744da397728ff9207
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
   Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+  WebViewJavascriptBridge: a4d502315f1b8d9a51cd6a9174147ed567ec3bc5
   XMLReader: c7e54b707c368e2fa545d8313276b4de13a36ff5
   XMLWriter: ebd4fc5372ec9e2d2e36dfa7489a6162b540f599
 
-PODFILE CHECKSUM: 88acee6b5bf20c42b935261c00060efe6bf279dd
+PODFILE CHECKSUM: c71ef88ed57678a3f86e2825839caea56d414815
 
 COCOAPODS: 1.0.1

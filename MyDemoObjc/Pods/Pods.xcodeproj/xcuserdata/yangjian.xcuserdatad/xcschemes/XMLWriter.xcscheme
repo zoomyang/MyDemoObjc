@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'AA4E907D6FCC97201BD1BC8046D0A14D'
+               BlueprintIdentifier = '273382BFF8EF4E09AB0A4774DDC97525'
                BlueprintName = 'XMLWriter'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libXMLWriter.a'>
