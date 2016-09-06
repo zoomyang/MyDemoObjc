@@ -40,6 +40,8 @@ PODS:
   - FFmpeg/precompiled (2.2)
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
+  - FMDB/SQLCipher (2.6.2):
+    - SQLCipher
   - FMDB/standard (2.6.2)
   - GRMustache (7.3.2):
     - JRSwizzle (~> 1.0)
@@ -69,6 +71,11 @@ PODS:
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard (= 3.1.0)
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
   - SSZipArchive (1.5)
   - SVProgressHUD (1.1.3)
   - Toast (2.4)
@@ -84,6 +91,7 @@ DEPENDENCIES:
   - CocoaLumberjack (~> 2.0.0-rc2)
   - FFmpeg (= 2.2)
   - FMDB (~> 2.5)
+  - FMDB/SQLCipher
   - GRMustache (= 7.3.2)
   - GTMBase64
   - JSONModel
@@ -106,7 +114,7 @@ DEPENDENCIES:
   - SSZipArchive (~> 1.2)
   - SVProgressHUD (~> 1.1.2)
   - Toast (~> 2.4)
-  - WebViewJavascriptBridge
+  - WebViewJavascriptBridge (= 5.0.5)
   - XMLReader
   - XMLWriter
 
@@ -139,6 +147,7 @@ SPEC CHECKSUMS:
   Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
   SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SQLCipher: 4684434d5791db86512cd7e02172aefba575849e
   SSZipArchive: 29daace2bccb90a47de2837744da397728ff9207
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
   Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
@@ -146,6 +155,6 @@ SPEC CHECKSUMS:
   XMLReader: c7e54b707c368e2fa545d8313276b4de13a36ff5
   XMLWriter: ebd4fc5372ec9e2d2e36dfa7489a6162b540f599
 
-PODFILE CHECKSUM: c71ef88ed57678a3f86e2825839caea56d414815
+PODFILE CHECKSUM: ad4d627e513a7cdde9ec052123998e96f172e685
 
 COCOAPODS: 1.0.1

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		412E2AC861CE5FB7F150CE96 /* libPods-MyDemoObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C054230C3640CA1CCDA1CED /* libPods-MyDemoObjc.a */; };
+		C70A4CAE1D7EA09E002427F1 /* MyPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A4CAD1D7EA09E002427F1 /* MyPlane.m */; };
+		C70A4CB31D7EA992002427F1 /* MySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A4CB21D7EA992002427F1 /* MySwift.swift */; };
 		C7104A551D74656E00B80BF6 /* IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = C7104A541D74656E00B80BF6 /* IPAddress.m */; };
 		C72B0B8E1D73B2690065A9A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C72B0B8D1D73B2690065A9A0 /* main.m */; };
 		C72B0B911D73B2690065A9A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C72B0B901D73B2690065A9A0 /* AppDelegate.m */; };
@@ -30,6 +32,10 @@
 		1773D9B8C87424EDB38AA8BF /* Pods-MyDemoObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemoObjc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemoObjc/Pods-MyDemoObjc.debug.xcconfig"; sourceTree = "<group>"; };
 		5C054230C3640CA1CCDA1CED /* libPods-MyDemoObjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyDemoObjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E138380111615D2E362036F /* Pods-MyDemoObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemoObjc.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemoObjc/Pods-MyDemoObjc.release.xcconfig"; sourceTree = "<group>"; };
+		C70A4CAC1D7EA09E002427F1 /* MyPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlane.h; sourceTree = "<group>"; };
+		C70A4CAD1D7EA09E002427F1 /* MyPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlane.m; sourceTree = "<group>"; };
+		C70A4CAF1D7EA6F7002427F1 /* MyDemoObjc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyDemoObjc-Bridging-Header.h"; sourceTree = "<group>"; };
+		C70A4CB21D7EA992002427F1 /* MySwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySwift.swift; sourceTree = "<group>"; };
 		C7104A531D74656E00B80BF6 /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
 		C7104A541D74656E00B80BF6 /* IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAddress.m; sourceTree = "<group>"; };
 		C72B0B891D73B2690065A9A0 /* MyDemoObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemoObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +131,9 @@
 				C72B0B901D73B2690065A9A0 /* AppDelegate.m */,
 				C72B0B921D73B2690065A9A0 /* ViewController.h */,
 				C72B0B931D73B2690065A9A0 /* ViewController.m */,
+				C70A4CAC1D7EA09E002427F1 /* MyPlane.h */,
+				C70A4CAD1D7EA09E002427F1 /* MyPlane.m */,
+				C70A4CB21D7EA992002427F1 /* MySwift.swift */,
 				C72B0B951D73B2690065A9A0 /* Main.storyboard */,
 				C72B0B9B1D73B2690065A9A0 /* Assets.xcassets */,
 				C72B0B9D1D73B2690065A9A0 /* LaunchScreen.storyboard */,
@@ -132,6 +141,7 @@
 				C72B0B981D73B2690065A9A0 /* MyDemoObjc.xcdatamodeld */,
 				C7745EEF1D79017D00ED861B /* CoreDataModal */,
 				C72B0B8C1D73B2690065A9A0 /* Supporting Files */,
+				C70A4CAF1D7EA6F7002427F1 /* MyDemoObjc-Bridging-Header.h */,
 			);
 			path = MyDemoObjc;
 			sourceTree = "<group>";
@@ -324,12 +334,14 @@
 				C72B0B9A1D73B2690065A9A0 /* MyDemoObjc.xcdatamodeld in Sources */,
 				C7F8DA361D75B30D0051ECF3 /* HexStr.m in Sources */,
 				C7745EF81D79018E00ED861B /* Dept+CoreDataProperties.m in Sources */,
+				C70A4CAE1D7EA09E002427F1 /* MyPlane.m in Sources */,
 				C72B0BAC1D73BF820065A9A0 /* DHManager.mm in Sources */,
 				C7745EFA1D79018E00ED861B /* Person+CoreDataProperties.m in Sources */,
 				C7745EFB1D79018E00ED861B /* Person.m in Sources */,
 				C72B0B941D73B2690065A9A0 /* ViewController.m in Sources */,
 				C7104A551D74656E00B80BF6 /* IPAddress.m in Sources */,
 				C7745EFF1D7901EA00ED861B /* CoreDataDBHelper.m in Sources */,
+				C70A4CB31D7EA992002427F1 /* MySwift.swift in Sources */,
 				C72B0B911D73B2690065A9A0 /* AppDelegate.m in Sources */,
 				C72B0B8E1D73B2690065A9A0 /* main.m in Sources */,
 				C72B0BAD1D73BF820065A9A0 /* dllmain.cpp in Sources */,
@@ -447,10 +459,15 @@
 			baseConfigurationReference = 1773D9B8C87424EDB38AA8BF /* Pods-MyDemoObjc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyDemoObjc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zdksii.MyDemoObjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyDemoObjc/MyDemoObjc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -459,10 +476,14 @@
 			baseConfigurationReference = 7E138380111615D2E362036F /* Pods-MyDemoObjc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyDemoObjc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zdksii.MyDemoObjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyDemoObjc/MyDemoObjc-Bridging-Header.h";
 			};
 			name = Release;
 		};
