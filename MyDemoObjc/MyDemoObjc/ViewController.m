@@ -28,8 +28,15 @@ static DDLogLevel ddLogLevel = DDLogLevelInfo;
 #import "MyPlane.h"
 #import "PureLayout.h"
 
-@interface ViewController ()
 
+typedef NS_ENUM(NSInteger,aaa){
+    a,
+    b
+};
+@interface ViewController ()
+{
+    aaa xx;
+}
 @end
 
 @implementation ViewController
@@ -39,6 +46,7 @@ static DDLogLevel ddLogLevel = DDLogLevelInfo;
     // Do any additional setup after loading the view, typically from a nib.
     
     NSDictionary *dic = [[DHManager shareDHManager] DH];
+    
     
     DDLogInfo(@"%@",dic);
     
